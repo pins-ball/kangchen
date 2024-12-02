@@ -1,0 +1,120 @@
+/* 기본 스타일 */
+body {
+    font-family: 'Noto Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* 전체 배경색 */
+    color: #333;
+  }
+  
+  /* 헤더 스타일 */
+  header {
+    background-color: #4CAF50; /* 초록색 테마 */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  header .logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  /* 메인 배너 스타일 */
+  #main-banner {
+    /* background: url('banner.jpg') no-repeat center center/cover; 배경 이미지 추가 */
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #4CAF50; /* 이미지가 없을 때 기본 색상 */
+    border-bottom: 5px solid #333;
+  }
+  
+  #main-banner h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  #main-banner button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #ff6347; /* 토마토 색 버튼 */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #main-banner button:hover {
+    background-color: #e5533e;
+  }
+  
+  /* 밀키트 섹션 스타일 */
+  #meal-kit {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fff;
+    border-top: 5px solid #4CAF50;
+  }
+  
+  #meal-kit h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #meal-kit p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  #meal-kit button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #meal-kit button:hover {
+    background-color: #45a049;
+  }
+  
+  /* 푸터 스타일 */
+  footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+  }
+  
+  /* 버튼 스타일 공통 */
+  button {
+    font-family: 'Noto Sans', Arial, sans-serif;
+  }
+  
